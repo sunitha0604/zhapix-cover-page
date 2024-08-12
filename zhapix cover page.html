@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhapix - Photography Portfolio</title>
+    <style>
+       
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: left;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+            display: inline-block;
+        }
+
+       
+        nav {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            display: inline-block;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: lightgray;
+        }
+
+        
+        .content {
+            background-image: url(zhapibc.jpeg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+            padding-top: 20px; 
+        }
+
+        .content h2 {
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .content p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: black;
+        }
+
+       
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Zhapix</h1>
+        
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+                 <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div>
+            <h2>UI Centric Solutions</h2>
+            <p>Everyone has the right to a digital experience!</p>
+        </div>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024 Zhapix. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
